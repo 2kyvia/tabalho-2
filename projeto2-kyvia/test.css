@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+  background-image: url('fundo.jpg');     
+  background-repeat: no-repeat;    
+  background-position: center;     
+  background-size: cover;
+  margin: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: rgb(2, 11, 20);
+  line-height: 1.6;
+}
+
+.container {
+  display: inline-flex ;  
+  width: 30%;     
+  padding: 8px;     
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.container div {
+  border: 1px #CCC solid;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: cursive;
+  border-radius: 30px;
+}
+button:hover {
+  color: white;
+  background-image: url('fofo.gif');
+}
+.col {     
+  float: left;    
+  width: 30%;     
+  padding: 8px;     
+  box-sizing: border-box; 
+} 
+.price-box {     
+  background: #fff;     
+  color: #555;     
+  list-style-type: none;     
+  border: 1px solid #555;     
+  margin: 0;     
+  padding: 0;
+  border-radius: 30px;
+   
+} 
+.price-box .header {     
+  background-color: #111;     
+  color: #fff;     
+  font-size: 25px;
+  border-radius: 30px; 
+} 
+.price-box .header.header-green {    
+  background: #4caf50;
+  border-radius: 30px; 
+} 
+.price-box li {     
+  padding: 20px;     
+  border-bottom: 20px solid #eee;     
+  text-align: center;
+  border-radius: 30px;
+} 
+.btn {     
+  background-color: #04746e;     
+  border: none;     
+  color: #fff;     
+  padding: 10px 15px;     
+  text-align: center;     
+  text-decoration: none;     
+  font-size: 18px;
+  border-radius: 30px; 
+} 
+
+.image2{
+  border: 3px solid #111;
+  padding: 8px;
+  border-radius: 30px; 
+}
+.sec01 {
+  border: 3px solid #111; 
+  border-radius: 30px;
+}
+.sec02 {
+  border: 3px solid #111; 
+  border-radius: 30px; 
+}
+.sec03 {
+  border: 3px solid #111;
+  border-radius: 30px;
+}
+.footer {
+  float: left;
+}
+
+   
